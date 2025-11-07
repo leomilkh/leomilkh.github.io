@@ -1,0 +1,120 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+</style>
+
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: uppercase;
+}
+
+:root {
+  --text-color: #492D0D;
+  --pink-color: #F38088;
+  --background-color: #FFF0F5;
+}
+
+html {
+  cursor: url("https://raw.githubusercontent.com/leomilkh/site/refs/heads/main/normal%20(2).png") 40 45, auto;
+}
+
+body {
+  padding: 10vw 3.333vw;
+  padding-bottom: 13.333vw;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.1vw;
+  background-color: var(--background-color);
+  background-image: url("http://www.transparenttextures.com/patterns/cream-pixels.png");
+  background-repeat: repeat;
+  background-size: auto;
+}
+  color: #492D0D;
+}
+
+.name {
+  font-size: 11.5vw;
+  line-height: 100%;
+}
+
+.block {
+  margin-top: 13.333vw;
+}
+
+.block-title {
+  color: #FE9A76;
+  line-height: 5.208vw;
+  font-size: 4.444vw;
+  margin-bottom: 3.333vw;
+}
+
+.entry {
+  line-height: 7.814vw;
+  font-size: 6.667vw;
+  margin-bottom: 1.667vw;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+  cursor: url("https://raw.githubusercontent.com/leomilkh/site/refs/heads/main/click%20(2).png") 40 45, auto;
+}
+
+a:hover {
+  color: var(--pink-color);
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    padding: 4.883vw;
+    padding-bottom: 8.4vw;
+  }
+
+  .name {
+    font-size: 8.4vw;
+  }
+
+  .block {
+    margin-top: 8.4vw;
+  }
+
+  .block-title {
+    line-height: 3.434vw;
+    font-size: 2.93vw;
+    margin-bottom: 2.344vw;
+  }
+
+  .entry {
+    line-height: 8.24vw;
+    font-size: 7.031vw;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    padding: 3.472vw;
+    padding-bottom: 8.333vw;
+  }
+
+  .name {
+    font-size: 9vw;
+    margin-bottom: 1.667vw;
+  }
+
+  .block {
+    margin-top: 8.333vw;
+  }
+
+  .block-title {
+    line-height: 3.906vw;
+    font-size: 3.333vw;
+    margin-bottom: 2.5vw;
+  }
+
+  .entry {
+    line-height: 7.813vw;
+    font-size: 6.667vw;
+  }
+}
